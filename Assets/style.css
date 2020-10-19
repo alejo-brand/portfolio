@@ -83,6 +83,8 @@ main{
 aside{
     text-align:right;
     margin-right:30px;
+    border-right: 5px solid var(--main-margin-color);
+    padding-right: 30px;
 }
 .about_me_subtitle{
     color: var(--font-color);
@@ -92,8 +94,8 @@ aside{
 }
 
 .paragraph{
-    border-left: 5px solid var(--main-margin-color);
     padding: 35px 40px;
+    line-height:2em;
 }
 .work{
     display: flex;
@@ -120,6 +122,9 @@ aside{
     padding: 35px 40px;
     margin-left:45px;
 }
+.main_work{
+    display:none;
+}
 .jazz_bass{
     color: var(--font-color);
     font-size: 30px;
@@ -128,4 +133,47 @@ aside{
     position: absolute;
     bottom: 25px;
     left: 0;
+}
+.container{
+    display:flex;
+    
+}
+.small_grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.headphones{
+    height: 150px;
+    background-image: url(./pexels-barthy-bonhomme-185030.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+.hendrik{
+    height: 150px;
+    background-image: url(./pexels-hendrik-b-744318.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+.casette_markus{
+    height: 150px;
+    background-image: url(./pexels-markus-spiske-92083.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    
+}
+.basses_niemeier{
+    height: 150px;
+    background-image: url(./pexels-stephen-niemeier-65718.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
 }
