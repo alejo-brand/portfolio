@@ -136,44 +136,57 @@ aside{
 }
 .container{
     display:flex;
+    flex:4 1 0;
+    flex-wrap: wrap;
+    width:100%;
     
 }
 .small_grid{
+    width:100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-left:45px;
 }
 .headphones{
+    width:49%;
     height: 150px;
     background-image: url(./pexels-barthy-bonhomme-185030.jpg);
     background-size: cover;
     background-position: center;
     overflow: hidden;
     position: relative;
+    border: 5px solid var(--main-margin-color);
 }
 .hendrik{
+    width:49%;
     height: 150px;
     background-image: url(./pexels-hendrik-b-744318.jpg);
     background-size: cover;
     background-position: center;
     overflow: hidden;
     position: relative;
+    border: 5px solid var(--main-margin-color);
 }
 .casette_markus{
+    width:49%;
     height: 150px;
     background-image: url(./pexels-markus-spiske-92083.jpg);
     background-size: cover;
     background-position: center;
     overflow: hidden;
     position: relative;
+    border: 5px solid var(--main-margin-color);
     
 }
 .basses_niemeier{
+    width:49%;
     height: 150px;
     background-image: url(./pexels-stephen-niemeier-65718.jpg);
     background-size: cover;
     background-position: center;
     overflow: hidden;
     position: relative;
+    border: 5px solid var(--main-margin-color);
 }
